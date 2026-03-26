@@ -1,0 +1,20 @@
+[project]
+name = "langchain-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.0"
+dependencies = [
+    "arxiv>=2.4.1",
+    "ddg>=0.2.2",
+    "ddgs>=9.11.2",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
+    "langgraph-checkpoint-postgres>=3.0.4",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "psycopg[binary]>=3.3.3",
+    "tiktoken>=0.12.0",
+    "wikipedia>=1.4.0",
+]
